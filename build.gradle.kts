@@ -10,6 +10,9 @@ buildscript {
     }
 
     repositories {
+	    maven("https://maven.aliyun.com/repository/central")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/public")
         mavenLocal()
         //首选国外镜像加快github CI
         google()
@@ -28,6 +31,9 @@ buildscript {
 
 allprojects {
     repositories {
+	    maven("https://maven.aliyun.com/repository/central")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/public")
         mavenLocal()
         //首选国外镜像加快github CI
         google()
